@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 
 const connectDB = async () => {
   try {
-    await mongoose.connect("mongodb://mongo:IPDjzGBqrOpaWkQlIsHqoXKMllMXimdR@monorail.proxy.rlwy.net:36004");
+    await mongoose.connect("mongodb://137.184.5.176/folios");
     console.log("MongoDB connected");
   } catch (error) {
     console.error("MongoDB connection error", error);

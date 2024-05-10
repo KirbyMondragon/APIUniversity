@@ -5,7 +5,7 @@ import routes from "./routes";
 import connectDB from "./database";
 
 const app: Application = express();
-const PORT = 3000;
+const PORT = 3033;
 
 // Conexión a la base de datos
 connectDB();
@@ -17,5 +17,5 @@ app.use(bodyParser.json());
 app.use("/", routes);
 
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  console.log(`Server is running on port ` + PORT);
 });

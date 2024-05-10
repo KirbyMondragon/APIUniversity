@@ -5,5 +5,5 @@ const express_1 = require("express");
 const folioController_1 = require("./controllers/folioController");
 const router = (0, express_1.Router)();
 // Rutas para la API
-router.get("/api/folios/nuevo", folioController_1.obtenerNuevoFolio);
+router.get("/api", folioController_1.obtenerNuevoFolio);
 exports.default = router;

@@ -5,6 +5,6 @@ import { obtenerNuevoFolio } from "./controllers/folioController";
 const router = Router();
 
 // Rutas para la API
-router.get("/api/folios/nuevo", obtenerNuevoFolio);
+router.get("/api", obtenerNuevoFolio);
 
 export default router;

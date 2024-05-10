@@ -9,7 +9,7 @@ const body_parser_1 = __importDefault(require("body-parser"));
 const routes_1 = __importDefault(require("./routes"));
 const database_1 = __importDefault(require("./database"));
 const app = (0, express_1.default)();
-const PORT = 3000;
+const PORT = 3033;
 // Conexión a la base de datos
 (0, database_1.default)();
 // Middleware
