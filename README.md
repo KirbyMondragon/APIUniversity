@@ -1,2 +1,2 @@
 # APIRestFolios
-Es una api muy simple la cual proporciona Folios irrepetibles, estos se almacenan en mongodb
+Es una api muy simple la cual Almacena usuarios, estos se almacenan en mongodb
