@@ -5,7 +5,7 @@ import routes from "./routes";
 import connectDB from "./database";
 
 const app: Application = express();
-const PORT = 3033;
+const PORT = 3034;
 
 // Conexión a la base de datos
 connectDB();
